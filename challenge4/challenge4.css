@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+div {
+  background-color: black;
+  color: white;
+  height: 150px;
+  width: 150px;
+}
+
+.div--grey {
+  background-color: grey;
+}
+
+.div2 {
+  -webkit-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+}
