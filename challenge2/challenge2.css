@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+.section > div {
+  background-color: black;
+  color: white;
+  height: 150px;
+  width: 150px;
+}
+
+.section1 .div2 {
+  margin: auto;
+}
+
+.section1 .div3 {
+  margin-left: auto;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section2 .div5 {
+  align-self: center;
+}
+
+.section2 .div6 {
+  align-self: flex-end;
+}
