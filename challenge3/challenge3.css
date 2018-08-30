@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.section {
+  margin-top: 20px;
+  position: relative;
+  min-height: 300px;
+}
+
+.div--small {
+  background-color: black;
+  color: white;
+  height: 150px;
+  width: 150px;
+}
+
+.div--large {
+  background-color: grey;
+  color: white;
+  height: 300px;
+  width: 300px;
+}
+
+.div1 {
+  margin: auto;
+  position: relative;
+}
+
+.div2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.div3 {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.div4 {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
