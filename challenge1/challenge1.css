@@ -10,11 +10,14 @@ body {
 .row {
   margin-bottom: 20px;
 }
-.row1 > div {
+.row > div {
   background-color: black;
   color: white;
   height: 150px;
   width: 150px;
+}
+
+.row1 > div {
   display: inline-block;
 }
 
@@ -24,13 +27,6 @@ body {
 
 .row1 .div2 {
   margin-right: 5px;
-}
-
-.row2> div {
-  background-color: black;
-  color: white;
-  height: 150px;
-  width: 150px;
 }
 
 .row2 {
